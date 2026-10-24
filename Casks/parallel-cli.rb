@@ -1,23 +1,23 @@
 cask "parallel-cli" do
-  version "0.9.3"
+  version "0.9.4"
 
   on_macos do
     on_arm do
-      sha256 "0ef333132303363d8c18a7046eb03cf348d8ec606fe3316d54d91bec91060659"
+      sha256 "a0835de753508b83d4700d6e53a0267fd688f681d2d281f7eea613b89b0f5d5c"
       url "https://github.com/parallel-web/parallel-web-tools/releases/download/v#{version}/parallel-cli-darwin-arm64.zip"
     end
     on_intel do
-      sha256 "7994458207810859192e2d50d5b6bc544f100fc211ea01ff95268a1dababe293"
+      sha256 "90a90e050c4b96206e418272bad3e9480005dee855c1f3f966435d6b2267e183"
       url "https://github.com/parallel-web/parallel-web-tools/releases/download/v#{version}/parallel-cli-darwin-x64.zip"
     end
   end
   on_linux do
     on_arm do
-      sha256 "0a6014fc0b7c84976a01f84c23225a7ed52541e2167b69b33d678908a6b2a20e"
+      sha256 "e176b05459132fd985c79211e40ae0a32a50ce8a82f78d44c6c99940c90d9467"
       url "https://github.com/parallel-web/parallel-web-tools/releases/download/v#{version}/parallel-cli-linux-arm64.zip"
     end
     on_intel do
-      sha256 "0abd18bc65f73fc680a5d909a83253c11a59b5ae7ee1975a6831aa7a5a054bb9"
+      sha256 "51b21f94b74f5cfc61d416d035f589191238d8a100a28ca997380ec2061c1083"
       url "https://github.com/parallel-web/parallel-web-tools/releases/download/v#{version}/parallel-cli-linux-x64.zip"
     end
   end
